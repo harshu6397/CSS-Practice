@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design 01</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .upper-section{
+            display: flex;  
+            justify-content: space-around;
+            align-items: center;
+            padding: 60px;
+        }
+
+        .info{
+            width: 60%;
+        }
+
+        .name{
+            font-size: 80px;
+        }
+
+        .info{
+            font-size: 20px;
+        }
+
+        .info h1{
+            line-height: 80px;
+            font-weight: 300;
+        }
+
+        .info p{
+            line-height: 30px;
+        }
+
+        .upper-section img{
+            padding-right: 40px;
+            width: 425px;
+            height: 550px;
+        }
+
+        .lower-section{
+            width: 100%;
+            background-color: rgba(204, 204, 204, 0.26);
+            position: absolute;
+            bottom: 0;
+        }
+
+        .lower-section-container{
+            display: flex;
+            align-items: center;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .left{
+            width: 100%;
+            border-right: 1px solid black;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .right{
+            width: 100%;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .footer-section{
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upper-section">
+            <div class="info">
+                <h1>Hey, I am <br> <span class="name">Harsh Kumar</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid ipsam perspiciatis dolore aspernatur temporibus consequatur, impedit doloribus, sapiente inventore commodi facere dolor asperiores, odio dicta harum nesciunt at voluptas?</p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1508341591423-4347099e1f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image">
+        </div>
+        <div class="lower-section">
+            <div class="lower-section-container">
+                <div class="left">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam omnis, aspernatur 
+                </div>
+                <div class="right">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ducimus quae 😊
+                </div>
+            </div>
+            <div class="footer-section">
+                Made By Harsh Kumar ❤️
+            </div>
+        </div>
+    </div>
+</body>
+</html>
